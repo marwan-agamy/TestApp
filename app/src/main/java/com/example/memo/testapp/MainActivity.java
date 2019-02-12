@@ -10,10 +10,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void  add (Integer xx )
+    public void  add (Integer y )
     {
-        xx++;
-
-        xx--;
+        y = 0 ;
     }
 }
